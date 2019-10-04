@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(to right, #f3f1f1 0%, #eeeeee 100%);
+}
+
+.container {
+  font-family: 'Lato', sans-serif;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-size: 16px;
+}
+
+.container h3 {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.container p {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.container .drink-btn {
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 1px solid #0a0a0a;
+  background-color: #ffffff;
+  color: #0c2bdd;
+  cursor: pointer;
+  margin: 1rem auto;
+  outline: none;
+}
+
+.container .drink-btn:hover {
+  background-color: #eeeeee;
+}
+
+.drink-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 1024px;
+  border-radius: 5px;
+  border: 1px solid #0a0a0a;
+  background-color: #fff;
+  box-shadow: 1px 1px 0.5px 0.5px rgba(0, 0, 0, 0.5);
+}
+
+.drink-container .drink-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 17rem;
+  width: 17rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.drink-container .drink-types {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin: 1rem 0;
+}
+
+.drink-container .drink-types p {
+  padding: 0.5rem;
+  flex: 1;
+}
+
+.drink-container .drink-types .drink-span {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.drink-container .drink-instruction {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.drink-container .drink-instruction p {
+  max-width: 500px;
+}
+
+.drink-container .ingredient-heading {
+  padding: 0.5rem;
+}
+
+.drink-container .ingredients-collection {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.drink-container .ingredients-collection .ingredient-item {
+  list-style-type: none;
+  padding: 0.3rem 1rem;
+  margin: 0.5rem 0;
+}
